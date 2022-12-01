@@ -63,6 +63,17 @@ header a {
     color: var(--color-3);
 }
 
+.top-banner img {
+    height: 150px;
+    width: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    float: left;
+    position: relative;
+    top: 25px;
+    left: 25px;
+}
+
 h2 {
     float: right;
     padding: 0px 10px;
@@ -202,11 +213,25 @@ footer {
         text-align: center;
     }
 
+    .top-banner {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .top-banner img {
+        height: 100px;
+        width: 100px;
+    }
+
     h2 {
         float: none;
         position: static;
         padding: 0;
         margin: 0;
+        height: fit-content;
+        width: 100%;
         text-align: center;
     }
 
