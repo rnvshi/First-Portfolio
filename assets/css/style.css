@@ -1,0 +1,262 @@
+:root {
+    --color-1: #17291d;
+    --color-2: #395756;
+    --color-3: #ede8d2;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 500;
+}
+
+/* This is the Header */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    width: 100%;
+    color: var(--color-3);
+    background-color: var(--color-1);
+    font-size: 16px;
+}
+
+/* This is the Name Banner */
+h1 {
+    padding-left: 50px;
+    padding-right: 20px;
+    font-size: 48px;
+    background-color: var(--color-2);
+}
+
+/* This is the Navigation Bar */
+.links {
+    padding: 50px;
+    font-size: 20px;
+}
+
+.links ul {
+    list-style-type: none;
+    height: fit-content;
+}
+
+.links ul li {
+    display: inline-block;
+}
+
+header a {
+    color: var(--color-3);
+    text-decoration: none;
+    padding: 2px 5px;
+    border-bottom: solid var(--color-3) 3px;
+}
+
+/* This is the Top Banner */
+.top-banner {
+    position: relative;
+    height: 200px;
+    width: 100%;
+    background-image: url("../images/top-banner-image.jpg");
+    color: var(--color-3);
+}
+
+h2 {
+    float: right;
+    padding: 0px 10px;
+    background-color: var(--color-2);
+    height: 40px;
+    position: relative;
+    right: 50px;
+    top: 125px;
+    font-size: 40px;
+}
+
+/* This is the Main Body Content */
+
+.content {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 70px;
+    background-color: var(--color-3);
+}
+
+h3 {
+    font-size: 48px;
+    display: inline-flex;
+    text-align: right;
+    justify-content: end;
+    min-width: 25%;
+    color: var(--color-1);
+}
+
+.about-me,
+.work,
+.contact-me,
+.about-me p,
+.container,
+.contact-me nav {
+    display: inline-flex;
+    width: 100%;
+    margin: 10px;
+}
+
+.about-me p,
+.container,
+.contact-me nav {
+    padding-left: 10px;
+    margin: 0px 10px;
+    border-left: solid var(--color-1) 3px;
+}
+
+/* This is the About Me section */
+
+.about-me p {
+    line-height: 1.5;
+}
+
+/* This is the Work section */
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.card {
+    background-color: var(--color-2);
+    margin: 5px;
+}
+
+.card img {
+    background-color: var(--color-2);
+    object-fit: cover;
+    padding: 5px;
+    width: 100%;
+}
+
+/* Change image opacity when mouse hovers over card */
+.card:hover img {
+    opacity: 50%;
+}
+
+h4 {
+    height: fit-content;
+    width: fit-content;
+    padding: 10px;
+    font-size: 20px;
+    background-color: var(--color-2);
+    color: var(--color-3);
+    float: left;
+    transform: translateY(-100px);
+}
+
+.card:first-child,
+.card:first-child img {
+    width: 100%;
+    max-height: 300px;
+}
+
+.card:not(:first-child),
+.card:not(:first-child) img {
+    flex: 1;
+    min-width: 45%;
+    max-height: 150px;
+}
+
+/* This is the Contact Me section */
+
+.contact-me a {
+    color: var(--color-1);
+    text-decoration: none;
+    padding: 2px 5px;
+    border-bottom: solid var(--color-1) 3px;
+}
+
+.contact-me nav ul {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+/* This is the Footer */
+
+footer {
+    text-align: center;
+    background-color: var(--color-3);
+}
+
+/* This is to make the screen mobile responsive */
+@media screen and (max-width: 800px) {
+
+    header,
+    .links ul {
+        display: inline-block;
+        height: fit-content;
+        text-align: center;
+    }
+
+    h2 {
+        float: none;
+        position: static;
+        padding: 0;
+        margin: 0;
+        text-align: center;
+    }
+
+    h3 {
+        text-align: center;
+        justify-content: center;
+    }
+
+    .about-me,
+    .work,
+    .contact-me {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+
+    .about-me p,
+    .container,
+    .contact-me nav {
+        padding-left: 10px;
+        margin: 0px 10px;
+        border: 0;
+    }
+
+    .container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        height: fit-content;
+    }
+
+    .card:first-child,
+    .card:first-child img {
+        width: 100%;
+        max-height: 400px;
+    }
+
+    .card:not(:first-child),
+    .card:not(:first-child) img {
+        flex: 1;
+        width: 100%;
+        max-height: 400px;
+    }
+
+    h4 {
+        width: 100%;
+        float: none;
+        transform: translateY(-60px);
+    }
+
+}

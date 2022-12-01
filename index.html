@@ -2,8 +2,8 @@
 
 <head>
     <meta charset="UTF-8" />
-    <!-- <link rel="stylesheet" href="./assets/css/style.css"> -->
-    <!-- Will also need to include a css reset stylesheet -->
+    <link rel="stylesheet" type="text/css" href="./assets/css/reset.css" />
+    <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
     <title>Isha Rahman's Digital Portfolio</title>
 </head>
 
@@ -15,61 +15,90 @@
         <!-- This is the Navigation Bar -->
         <nav class="links">
             <ul>
-                <li><a href="#">About Me</a></li>
-                <li><a href="#">Work</a></li>
-                <li><a href="#">Contact Me</a></li>
-                <li><a href="#">Resume</a></li>
+                <li><a href="#about-me">About Me</a></li>
+                <li><a href="#work">Work</a></li>
+                <li><a href="#contact-me">Contact Me</a></li>
+                <li><a href="./assets/files/Isha Raisa Rahman Resume.pdf">Resume</a></li>
             </ul>
         </nav>
     </header>
 
     <!-- This is the Top Banner -->
     <section class="top-banner">
-        <h2>Insert Subtitle Here</h2>
-        <img src="#" alt="#" />
+        <h2>Somewhere between science & tech</h2>
     </section>
 
     <!-- This is the Main Body Content-->
     <section class="content">
         <!-- This is the About Me section -->
-        <article class="about-me" id="about-me">
-            <h2>About Me</h2>
+        <section class="about-me" id="about-me">
+            <h3>About<br>Me</h3>
             <p>
-                Tell me a little bit about yourself.
+                Hello and welcome to my little corner of the Internet ! My name is Isha and I am an emerging web
+                developer currently embarking on my Fullstack journey with Carleton and edX bootcamps. Prior to this, my
+                academic training was in biochemistry with practical experience in developing prototype nano-carriers
+                with Health Canada. I owe great thanks and respect to the instructors and mentors that guided me into
+                the quizzical and methodical thinking that is required for scientific research and discovery. With time
+                I came to realise that working at the bench was not the passion that I would wish to continue to pursue.
+                The exploding and exciting field of software and web development enticed me into looking at what options
+                were available to me. While I am excited to learn this new skill, I am avidly curious of how to bridge
+                the gap between this field and that of science. With my practical experience in scientific methods,
+                experiment design, and technical report reading and writing, I hope to find the medium that can express
+                the portfolio I have built.
+                <br><br>
+                Below are the works I have completed to date; I hope you enjoy your stay.
             </p>
-        </article>
+        </section>
+
+
         <!-- This is the Work section -->
         <section class="work" id="work">
-            <h2>Work</h2>
-            <section class="card-1"></section>
-            <h3>Project-Title-1</h3>
-            <section class="card-2"></section>
-            <h3>Project-Title-2</h3>
-            <section class="card-3"></section>
-            <h3>Project-Title-3</h3>
-            <section class="card-4"></section>
-            <h3>Project-Title-4</h3>
-            <section class="card-5"></section>
-            <h3>Project-Title-5</h3>
+            <h3>Work</h3>
+            <section class="container">
+                <section class="card">
+                    <a href="https://rnvshi.github.io/Refactoring-Existing-Code" target="_blank">
+                        <img src="./assets/images/horiseon-social-solutions.png"></a>
+                    <h4>Horiseon |<br>Refactoring Existing Code</h4>
+                </section>
+                <section class="card">
+                    <img src="./assets/images/600x600.jpeg" />
+                    <h4>Project 2 |<br> Placeholder</h4>
+                </section>
+                <section class="card">
+                    <img src="./assets/images/600x600.jpeg" />
+                    <h4>Project 3 |<br> Placeholder</h4>
+                </section>
+                <section class="card">
+                    <img src="./assets/images/600x600.jpeg" />
+                    <h4>Project 4 |<br> Placeholder</h4>
+                </section>
+                <section class="card">
+                    <img src="./assets/images/600x600.jpeg" />
+                    <h4>Project 5 |<br> Placeholder</h4>
+                </section>
+            </section>
         </section>
+
         <!-- This is the Contact Me section -->
         <section class="contact-me" id="contact-me">
-            <h2>Contact Me</h2>
-            <ul>
-                <li><a href="#">Phone Number</a></li>
-                <li><a href="#">Email</a></li>
-                <li><a href="#">Github</a></li>
-                <li><a href="#">Twitter</a></li>
-                <li><a href="#">Spotify</a></li>
-            </ul>
+            <h3>Contact<br>Me</h3>
+            <nav class="links">
+                <ul>
+                    <li><a href="#">613.857.2772</a></li>
+                    <li><a href="mailto: ishaarahman@gmail.com">Email</a></li>
+                    <li><a href="https://github.com/rnvshi" target="_blank">Github</a></li>
+                    <li><a href="https://open.spotify.com/user/31iicsvicq6yrf5t7o6vsrdojunq" target="blank">Spotify</a>
+                    </li>
+                </ul>
+            </nav>
         </section>
     </section>
 
     <!-- Footer -->
     <footer>
-        <h2>Made with ❤️️ by Isha Rahman</h2>
+        <h5>Made with ❤️️ by Isha Rahman</h5>
         <p>
-            &copy;
+            &copy; edX Carleton Bootcamp 2022-2023
         </p>
     </footer>
 </body>
