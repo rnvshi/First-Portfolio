@@ -6,7 +6,9 @@ A portfolio webpage showing knowledge of HTML, CSS, and of my current body of wo
 
 ## Usage
 
-The top Navigation bar can be accessed to lead you to the appropriate sections on the webpage including the About Me, Works, and Contact Me sections. When the mouse cursor is hovered over the picture heads of the Work section cards, they should reduce in opacity and, when clicked, open to the associated project webpage in a new tab.
+The top Navigation bar can be accessed to lead you to the appropriate sections on the webpage including the About Me, Works, and Contact Me sections. A .pdf resume is also provided.
+
+When the mouse cursor is hovered over the picture heads of the Work section cards, they should reduce in opacity and, when clicked, open to the associated project webpage in a new tab.
 
 Below is an image of the webpage at Desktop view.
 
