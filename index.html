@@ -2,8 +2,8 @@
 
 <head>
     <meta charset="UTF-8" />
-    <!-- <link rel="stylesheet" href="./assets/css/style.css"> -->
-    <!-- Will also need to include a css reset stylesheet -->
+    <link rel="stylesheet" type="text/css" href="./assets/css/reset.css" />
+    <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
     <title>Isha Rahman's Digital Portfolio</title>
 </head>
 
@@ -15,9 +15,9 @@
         <!-- This is the Navigation Bar -->
         <nav class="links">
             <ul>
-                <li><a href="#">About Me</a></li>
-                <li><a href="#">Work</a></li>
-                <li><a href="#">Contact Me</a></li>
+                <li><a href="#about-me">About Me</a></li>
+                <li><a href="#work">Work</a></li>
+                <li><a href="#contact-me">Contact Me</a></li>
                 <li><a href="#">Resume</a></li>
             </ul>
         </nav>
@@ -26,50 +26,79 @@
     <!-- This is the Top Banner -->
     <section class="top-banner">
         <h2>Insert Subtitle Here</h2>
-        <img src="#" alt="#" />
     </section>
 
     <!-- This is the Main Body Content-->
     <section class="content">
         <!-- This is the About Me section -->
-        <article class="about-me" id="about-me">
-            <h2>About Me</h2>
+        <section class="about-me" id="about-me">
+            <h3>About<br>Me</h3>
             <p>
-                Tell me a little bit about yourself.
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur ut dolor ut tortor euismod efficitur.
+                Nam mollis elementum consectetur. In hac habitasse platea dictumst. Vestibulum auctor dolor elit, sit
+                amet commodo arcu posuere at. Nulla eu metus id magna semper faucibus ac et tortor. Donec scelerisque
+                accumsan enim, vitae varius turpis pharetra vitae. Nam massa eros, ultrices in euismod et, tristique sed
+                nisi. Mauris nec leo ut sem congue fringilla. Proin quis facilisis elit. Donec fermentum ultrices nibh.
+                Vestibulum accumsan, purus ac auctor vehicula, lectus arcu vulputate nunc, a dictum urna ex at magna.
+                Aenean sit amet nisl in leo blandit semper quis id tellus. Morbi ex enim, ullamcorper id semper eu,
+                placerat eget urna. Aenean ipsum dolor, volutpat ac placerat condimentum, semper eget erat. Vivamus
+                auctor libero eu lectus hendrerit dictum. Proin molestie odio eu ligula egestas ornare.
+                <br>
+                Ut efficitur pretium risus a varius. Duis tincidunt congue enim. Nunc ullamcorper odio nec efficitur
+                tempus. Phasellus vitae viverra ex. Sed dolor erat, efficitur eget orci in, porta laoreet arcu. Integer
+                non mollis est, a consectetur velit. Etiam convallis tellus et nibh sodales pharetra. Aenean vulputate
+                tortor eu lorem dictum, pulvinar tincidunt tortor cursus.
             </p>
-        </article>
+        </section>
+
+
         <!-- This is the Work section -->
         <section class="work" id="work">
-            <h2>Work</h2>
-            <section class="card-1"></section>
-            <h3>Project-Title-1</h3>
-            <section class="card-2"></section>
-            <h3>Project-Title-2</h3>
-            <section class="card-3"></section>
-            <h3>Project-Title-3</h3>
-            <section class="card-4"></section>
-            <h3>Project-Title-4</h3>
-            <section class="card-5"></section>
-            <h3>Project-Title-5</h3>
+            <h3>Work</h3>
+            <section class="container">
+                <section class="card">
+                    <a href="https://rnvshi.github.io/Refactoring-Existing-Code" target="_blank">
+                        <img src="./assets/images/horiseon-social-solutions.png"></a>
+                    <h4>Horiseon |<br>Refactoring Existing Code</h4>
+                </section>
+                <section class="card">
+                    <img src="./assets/images/600x600.jpeg" />
+                    <h4>Project 2 |<br> Placeholder</h4>
+                </section>
+                <section class="card">
+                    <img src="./assets/images/600x600.jpeg" />
+                    <h4>Project 3 |<br> Placeholder</h4>
+                </section>
+                <section class="card">
+                    <img src="./assets/images/600x600.jpeg" />
+                    <h4>Project 4 |<br> Placeholder</h4>
+                </section>
+                <section class="card">
+                    <img src="./assets/images/600x600.jpeg" />
+                    <h4>Project 5 |<br> Placeholder</h4>
+                </section>
+            </section>
         </section>
+
         <!-- This is the Contact Me section -->
         <section class="contact-me" id="contact-me">
-            <h2>Contact Me</h2>
-            <ul>
-                <li><a href="#">Phone Number</a></li>
-                <li><a href="#">Email</a></li>
-                <li><a href="#">Github</a></li>
-                <li><a href="#">Twitter</a></li>
-                <li><a href="#">Spotify</a></li>
-            </ul>
+            <h3>Contact<br>Me</h3>
+            <nav class="links">
+                <ul>
+                    <li><a href="#">Phone Number</a></li>
+                    <li><a href="#">Email</a></li>
+                    <li><a href="#">Github</a></li>
+                    <li><a href="#">Spotify</a></li>
+                </ul>
+            </nav>
         </section>
     </section>
 
     <!-- Footer -->
     <footer>
-        <h2>Made with ❤️️ by Isha Rahman</h2>
+        <h5>Made with ❤️️ by Isha Rahman</h5>
         <p>
-            &copy;
+            &copy; edX Carleton Bootcamp 2022-2023
         </p>
     </footer>
 </body>
