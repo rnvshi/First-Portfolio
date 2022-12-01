@@ -1,12 +1,8 @@
-<<<<<<< HEAD
 :root {
     --color-1: #17291d;
     --color-2: #395756;
     --color-3: #ede8d2;
 }
-=======
-/* :root {} */
->>>>>>> 44d6141fa8a785941ef4b5d8298741d6b8fb0564
 
 * {
     margin: 0;
@@ -23,12 +19,8 @@ header {
     align-items: center;
     height: 100px;
     width: 100%;
-<<<<<<< HEAD
     color: var(--color-3);
     background-color: var(--color-1);
-=======
-    background-color: grey;
->>>>>>> 44d6141fa8a785941ef4b5d8298741d6b8fb0564
     font-size: 16px;
 }
 
@@ -37,11 +29,7 @@ h1 {
     padding-left: 50px;
     padding-right: 20px;
     font-size: 48px;
-<<<<<<< HEAD
     background-color: var(--color-2);
-=======
-    background-color: lightblue;
->>>>>>> 44d6141fa8a785941ef4b5d8298741d6b8fb0564
 }
 
 /* This is the Navigation Bar */
@@ -60,17 +48,10 @@ h1 {
 }
 
 header a {
-<<<<<<< HEAD
     color: var(--color-3);
     text-decoration: none;
     padding: 2px 5px;
     border-bottom: solid var(--color-3) 3px;
-=======
-    color: lightblue;
-    text-decoration: none;
-    padding: 2px 5px;
-    border-bottom: solid lightblue 3px;
->>>>>>> 44d6141fa8a785941ef4b5d8298741d6b8fb0564
 }
 
 /* This is the Top Banner */
@@ -79,20 +60,13 @@ header a {
     height: 200px;
     width: 100%;
     background-image: url("../images/top-banner-image.jpg");
-<<<<<<< HEAD
     color: var(--color-3);
-=======
->>>>>>> 44d6141fa8a785941ef4b5d8298741d6b8fb0564
 }
 
 h2 {
     float: right;
     padding: 0px 10px;
-<<<<<<< HEAD
     background-color: var(--color-2);
-=======
-    background-color: lightblue;
->>>>>>> 44d6141fa8a785941ef4b5d8298741d6b8fb0564
     height: 40px;
     position: relative;
     right: 50px;
@@ -109,10 +83,7 @@ h2 {
     align-items: center;
     justify-content: center;
     padding: 20px 70px;
-<<<<<<< HEAD
     background-color: var(--color-3);
-=======
->>>>>>> 44d6141fa8a785941ef4b5d8298741d6b8fb0564
 }
 
 h3 {
@@ -121,10 +92,7 @@ h3 {
     text-align: right;
     justify-content: end;
     min-width: 25%;
-<<<<<<< HEAD
     color: var(--color-1);
-=======
->>>>>>> 44d6141fa8a785941ef4b5d8298741d6b8fb0564
 }
 
 .about-me,
@@ -143,11 +111,7 @@ h3 {
 .contact-me nav {
     padding-left: 10px;
     margin: 0px 10px;
-<<<<<<< HEAD
     border-left: solid var(--color-1) 3px;
-=======
-    border-left: solid black 3px;
->>>>>>> 44d6141fa8a785941ef4b5d8298741d6b8fb0564
 }
 
 /* This is the About Me section */
@@ -166,19 +130,12 @@ h3 {
 }
 
 .card {
-<<<<<<< HEAD
     background-color: var(--color-2);
-=======
-    background-color: lightblue;
->>>>>>> 44d6141fa8a785941ef4b5d8298741d6b8fb0564
     margin: 5px;
 }
 
 .card img {
-<<<<<<< HEAD
     background-color: var(--color-2);
-=======
->>>>>>> 44d6141fa8a785941ef4b5d8298741d6b8fb0564
     object-fit: cover;
     padding: 5px;
     width: 100%;
@@ -194,12 +151,8 @@ h4 {
     width: fit-content;
     padding: 10px;
     font-size: 20px;
-<<<<<<< HEAD
     background-color: var(--color-2);
     color: var(--color-3);
-=======
-    background-color: lightblue;
->>>>>>> 44d6141fa8a785941ef4b5d8298741d6b8fb0564
     float: left;
     transform: translateY(-100px);
 }
@@ -220,17 +173,10 @@ h4 {
 /* This is the Contact Me section */
 
 .contact-me a {
-<<<<<<< HEAD
     color: var(--color-1);
     text-decoration: none;
     padding: 2px 5px;
     border-bottom: solid var(--color-1) 3px;
-=======
-    color: black;
-    text-decoration: none;
-    padding: 2px 5px;
-    border-bottom: solid black 3px;
->>>>>>> 44d6141fa8a785941ef4b5d8298741d6b8fb0564
 }
 
 .contact-me nav ul {
@@ -243,10 +189,7 @@ h4 {
 
 footer {
     text-align: center;
-<<<<<<< HEAD
     background-color: var(--color-3);
-=======
->>>>>>> 44d6141fa8a785941ef4b5d8298741d6b8fb0564
 }
 
 /* This is to make the screen mobile responsive */
@@ -291,7 +234,6 @@ footer {
     .container {
         display: flex;
         flex-wrap: wrap;
-<<<<<<< HEAD
         justify-content: center;
         align-items: center;
         flex-direction: column;
@@ -315,10 +257,6 @@ footer {
         width: 100%;
         float: none;
         transform: translateY(-60px);
-=======
-        justify-content: space-between;
-        flex-direction: column;
->>>>>>> 44d6141fa8a785941ef4b5d8298741d6b8fb0564
     }
 
 }
